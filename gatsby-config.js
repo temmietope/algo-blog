@@ -1,43 +1,43 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Frontcode by Temitope`,
+    name: `Temitope`,
+    siteUrl: `https://frontcode.netlify.app`,
+    description: `Useful Frontend articles`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to Frontcode, a blog that emphasizes on frontend articles and useful frontend hacks`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/temmmie_`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/temmietope`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/temmie_tope`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/in/temitope-ayodele/`,
       },
       {
         name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://dribbble.com/TemitopeA`,
       },
     ],
   },
   plugins: [
     {
-      resolve: "@narative/gatsby-theme-novela",
+      resolve: '@narative/gatsby-theme-novela',
       options: {
-        contentPosts: "content/posts",
-        contentAuthors: "content/authors",
-        basePath: "/",
+        contentPosts: 'content/posts',
+        contentAuthors: 'content/authors',
+        basePath: '/',
         authorsPage: true,
         sources: {
           local: true,
@@ -59,8 +59,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-      },
+      options: {},
     },
   ],
-};
+}
